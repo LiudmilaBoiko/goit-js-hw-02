@@ -18,6 +18,17 @@
 // friends[2] = "Lusy";
 // console.log(friends); //"Mango", "Kivi", "Lusy", "Ajax"
 
+//*напишите функцию для перебора и логгирования массива
+
+const logItems = function logItems(items) {
+  for (const item of items) {
+    console.log(item);
+  }
+};
+
+logItems(["Mango", "Kiwi", "Poly", "Ajaks"]);
+logItems(["1", "2", "3", "4", "5"]);
+logItems(["клавиатура", "наушники", "часы"]);
 //Примитивы и сложные типы
 //передача по значению
 

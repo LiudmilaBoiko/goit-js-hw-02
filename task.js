@@ -15,8 +15,27 @@
 
 // //* чтобы сократить количество кода можно использовать for...of
 // // for (const value of cart){
-// //total += IDBCursorWithValue;
+// //total += Value;
 // //}
+
+//*напиши функцию calculateTotalPrice (items), которая принимает маасив цен(чисел) и возвращает их сумму
+// const calculateTotalPrice = function (items) {
+//   console.log("items внутри функции: ", items);
+
+//   let total = 0;
+
+//   for (const item of items) {
+//     total += item;
+//   }
+
+//   return total;
+// };
+
+// const r1 = calculateTotalPrice([1, 2, 3]);
+
+// console.log(`Общая сумма покупок ${r1}`); // 6
+// console.log(calculateTotalPrice([5, 10, 15, 20])); // 50
+// console.log(calculateTotalPrice([100, 200, 300])); // 600
 
 // //* добавить налог
 // for (let i = 0; i < cart.length; i += 1) {
@@ -71,8 +90,8 @@ const loginToFind = "qwerty";
 
 //решение через includes и тернарный оператор
 
-const message = logins.includes(loginToFind)
-  ? "Пользователь $(loginToFind) найден."
-  : "Пользователь $(loginToFind) найден.";
+// const message = logins.includes(loginToFind)
+//   ? "Пользователь $(loginToFind) найден."
+//   : "Пользователь $(loginToFind) найден.";
 
-console.log(message);
+// console.log(message);
